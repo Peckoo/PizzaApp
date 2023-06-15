@@ -4,7 +4,7 @@ namespace SEDC.PizzaApp.Web.Models.Domain
 {
     public class Order
     {
-        public int Id { get; set; }
+        public int Idtest { get; set; }
 
         public ICollection<Pizza> Pizzas { get; set; } = new List<Pizza>();
 
